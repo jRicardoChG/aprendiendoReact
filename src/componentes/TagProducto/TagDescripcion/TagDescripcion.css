@@ -1,0 +1,65 @@
+.TagDescripcion{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    transition: height ease-in .2s;
+}
+
+.TDATitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+}
+
+.TDASValor{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center; 
+    height: 100%;
+    border-radius:2px;
+    margin:0px;
+    font-size:15px; 
+}
+.TDASValorTexto{
+    height: 100%;
+    height:18px;
+    font-size: 15px;
+}
+.TDASFlecha{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenFlecha{
+    border-radius: 10px;
+    margin: 0px;
+    height: 15px;
+    width: 15px;
+}
+.imagenFlecha:active{
+    background: dimgray;
+    transition: background 0.2s;
+    transform: scale(4px) 0.2s;
+}
+
+/**el div tiene animacion de movmiento*/
+.TDAContenido{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 0px;
+    transition: height ease-in .2s;
+    overflow: hidden;
+}
+
+.TDAContenidoTexto{
+    border-radius: 10px;
+    transition: height ease-in .2s;
+    text-align: justify;
+    padding: 10px;
+}

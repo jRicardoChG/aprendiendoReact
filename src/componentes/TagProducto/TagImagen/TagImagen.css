@@ -1,0 +1,15 @@
+#tagImagen{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:2px;
+    border-radius:2px;
+    background: white;
+    font-size:18px;
+    max-height:480px;
+    overflow: hidden;
+}
+
+#imagenObjeto{
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.tagProducto{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    font-size:15px;
+    background: #dfdddd;
+    padding: 5px;
+    width:300px;
+    border-radius:5px;  
+    
+    transition: height ease-in .2s;
+}
